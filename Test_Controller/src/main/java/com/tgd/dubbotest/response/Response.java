@@ -1,13 +1,13 @@
 package com.tgd.dubbotest.response;
 
-public class Result {
+public class Response {
     private int code;
 
     private String description;
 
-    private Object deta;
+    private Object result;
 
-    public Result() {
+    public Response() {
         this.code = 0;
         this.description = "success";
     }
@@ -28,20 +28,20 @@ public class Result {
         this.description = description;
     }
 
-    public Object getDeta() {
-        return deta;
+    public Object getResult() {
+        return result;
     }
 
-    public void setDeta(Object deta) {
-        this.deta = deta;
+    public void setResult(Object result) {
+        this.result = result;
     }
 
     @Override
     public String toString() {
-        return "Result{" +
+        return "Response{" +
                 "code=" + code +
                 ", description='" + description + '\'' +
-                ", deta=" + deta +
+                ", result=" + result +
                 '}';
     }
 }
