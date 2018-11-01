@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>dubbotest</name>
+    <name>dubbo_test</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -47,9 +47,9 @@
     </build>
 
     <modules>
-        <module>Test_Service_Facade</module>
-        <module>Test_User</module>
-        <module>Test_Controller</module>
+        <module>service_consumer</module>
+        <module>service_provider</module>
+        <module>service_consumer</module>
     </modules>
 
 </project>

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tgd</groupId>
-    <artifactId>test_user</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>business</artifactId>
+    <version>0.0.1</version>
     <packaging>war</packaging>
 
-    <name>user</name>
+    <name>service_provider</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -35,7 +35,7 @@
         <!-- service-facade -->
         <dependency>
             <groupId>com.tgd</groupId>
-            <artifactId>test_service_facade</artifactId>
+            <artifactId>service_facade</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
