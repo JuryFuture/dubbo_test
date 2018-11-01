@@ -47,7 +47,7 @@
     </build>
 
     <modules>
-        <module>service_consumer</module>
+        <module>service_facade</module>
         <module>service_provider</module>
         <module>service_consumer</module>
     </modules>
