@@ -1,4 +1,4 @@
 # dubbo_test
-dubbo test
-## 1. 总项目下 compile package
-## 2. 单个module下 war
+dubbo学习项目
+## 1. install service_facade
+## 2. root下 compile package
